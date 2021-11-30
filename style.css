@@ -1,0 +1,71 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background: rgb(19, 49, 148);
+}
+
+.todo {
+  background: cornflowerblue;
+  padding: 20px;
+}
+h4 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  transition: 1s;
+}
+h4:hover {
+  color: aqua;
+}
+input[type="text"] {
+  width: 95%;
+  padding: 10px;
+  margin: 10px 10px 25px 20px;
+  border-radius: 5px;
+  transition: 1s;
+  cursor: pointer;
+}
+input[type="text"]:hover {
+  background: rgb(230, 228, 221);
+}
+.btn {
+  padding: 1rem 1.2rem;
+  color: white;
+  background: rgb(41, 223, 41);
+  border-radius: 5px;
+  transition: 1s;
+  cursor: pointer;
+}
+.btn:hover {
+  background: rgb(10, 97, 10);
+}
+
+li {
+  margin: 0px 5px 5px 20px;
+  padding: 10px;
+  list-style: none;
+  width: 95%;
+  transition: 1s;
+  cursor: pointer;
+  color: white;
+  float: left;
+  font-size: 25px;
+}
+li:hover {
+  background: rgb(62, 89, 179);
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  color: white;
+  font-size: 20px;
+  padding: 12px 16px 12px 16px;
+  position: relative;
+  float: right;
+  background-color: tomato;
+  border: tomato solid;
+  border-radius: 15px;
+}
